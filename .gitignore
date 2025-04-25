@@ -1,0 +1,17 @@
+# Ignore media files (they make the repo huge)
+wp-content/uploads/
+
+# Ignore caches and upgrades
+wp-content/cache/
+wp-content/upgrade/
+
+# System and temporary files
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
