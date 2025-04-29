@@ -26,11 +26,6 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 
 <?php wp_body_open(); ?>
 
-<!-- ✅ Splash Screen -->
-<div id="splash-logo">
-  <img src="http://localhost/seo-saas/wp-content/uploads/2025/04/settings-3110.svg" alt="Splash Logo" />
-</div>
-<!-- ✅ Splash Screen -->
 <?php if ( $enable_skip_link ) { ?>
 <a class="skip-link screen-reader-text" href="<?php echo esc_url( $skip_link_url ); ?>"><?php echo esc_html__( 'Skip to content', 'hello-elementor' ); ?></a>
 <?php } ?>
